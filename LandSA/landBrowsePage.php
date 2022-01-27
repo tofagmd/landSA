@@ -15,14 +15,15 @@
 	<div class="content">
 		<div class="topnav">
 		<form>
-			<input type="text" placeholder="	Search here..">
+			<input type="text" placeholder="	إبحث">
 
 			<!-- send the search attribute -->
-			<button><input type="submit" value="search" ></button>
+			<button><input type="submit" value="إبحث" ></button>
 		</form>
 		</div>
 		<form>
-			<div id="countries" w3-include-html="countries.html"></div>
+			<div id="nationality" w3-include-html="components/nationality.html"></div>
+			<button><input type="submit" value="submit" ></button>
 		</form>
 		
 		<!-- footer -->
